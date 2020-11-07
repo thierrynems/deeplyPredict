@@ -134,7 +134,7 @@ def main():
             feat.getFeaturesSeq(paramDict['bins'],nameNT)
             #combiner toutes les features
             dataToPredict=getGeneFeatTableSeq(feat, nameNT)
-            myData=np.array(dataToPredict)
+            #myData=np.array(dataToPredict)
             #myData.append(dataToPredict[:])
             ####################################
             #mydata=np.asarray(dataToPredict)
